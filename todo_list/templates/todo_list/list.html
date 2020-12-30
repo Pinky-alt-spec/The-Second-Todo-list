@@ -4,6 +4,16 @@
      body{
         background-color: #638C88;
      }
+     .heading{
+        width:600px;
+        color: #638C88;
+        background-color: #fff;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 3px;
+        box-sizing: border-box;
+        box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+     }
 
      input{
         width: 100%;
@@ -41,7 +51,9 @@
      }
 
  </style>
-
+  <div class="heading">
+      <h4>TODO LIST</h4>
+  </div>
   <div class="center-column">
       <form method="POST" action="/">
          {% csrf_token %}
